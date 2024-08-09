@@ -39,7 +39,7 @@ const Navbar: React.FC<NavbarProps> = ({ isOpen, onMenuClick }) => {
             Dashboard
           </Typography>
         </Box>
-        <Box sx={{ display: 'flex', alignItems: 'center', marginLeft: isOpen ? '70px' : '0px' }}>
+        <Box sx={{ display: 'flex', alignItems: 'center', marginLeft: isOpen ? '250px' : '0px' }}>
           <IconButton color="inherit">
             <SearchIcon />
           </IconButton>
